@@ -11,8 +11,8 @@ if(operator==1){
 
 else if(operator==2){
     
-        const a = parseFloat (prompt("Enter a number you want to subtract"));
-        const b = parseFloat (prompt("Enter another number you want to subtract"));
+        const a = parseFloat (prompt("Enter a number you want to subtract from"));
+        const b = parseFloat (prompt("Enter the number to subtract"));
         const answer= a-b;
         console.log(answer);
         document.write('<br>The result for the subtraction is:'+ answer);
@@ -21,7 +21,7 @@ else if(operator==2){
     else if(operator==3){
     
         const a = parseFloat (prompt("Enter a number you want to multiply"));
-        const b = parseFloat (prompt("Enter another number you want to multiply"));
+        const b = parseFloat (prompt("Enter another number you want to multiply with"));
         const answer= a*b;
         console.log(answer);
         document.write('<br>The result for the multiplication is:'+ answer);
@@ -30,7 +30,7 @@ else if(operator==2){
     else if(operator==4){
     
         const a = parseFloat (prompt("Enter a number you want to divide"));
-        const b = parseFloat (prompt("Enter another number you want to divide"));
+        const b = parseFloat (prompt("Enter another number you want to divide with"));
         const answer= a/b;
         console.log(answer);
         document.write('The result for the division is:'+ answer);
