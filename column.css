@@ -1,0 +1,130 @@
+.flex-container{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    width: 900px;
+    height: 600px;
+    justify-content: center;    
+}
+
+#heading{
+    padding-top: 10%;
+    color: hsl(0, 0%, 95%);
+    font-family: '[Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)';
+    font-weight: 700;
+
+}
+
+img{
+   
+    padding-top: 7%;
+}
+
+.content{
+    padding-left: 20%;
+    padding-top: 10%;
+}
+/*paragraphs*/
+
+#first{
+    padding-top: 5%;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: '[Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)';
+    font-weight: 400;
+}
+
+
+
+ #box1{
+    width: 375px;
+    height: 450px;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border-top-left-radius: 1.5%;
+    border-bottom-left-radius: 1.5%;
+    border-left: 30%;
+    
+}
+
+
+#box1 button{
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 35%;
+    border: none;
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    font-weight: 700;
+    }
+
+/*box2*/
+#box2{
+    width: 375px;
+    height: 450px;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border-left: 30%;
+   }
+
+#box2 button{
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 35%;
+    border: none;
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    font-weight: 700;
+}
+
+/*box 3*/
+#box3{
+    width: 375px;
+    height: 450px;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border-top-right-radius: 1.5%;
+    border-bottom-right-radius: 1.5%;
+    border-left: 30%;
+    
+}
+
+.bt{
+    padding-top: 30%;
+}
+
+#box3 .bt{
+    padding-top: 35%;
+}
+
+
+
+#box3 button{
+    color:hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 35%;
+    border: none;
+    font-size: 15px;
+    width: 175px;
+    height: 40px;
+    font-weight: 700;
+}
+
+.flex-container #button:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 95%) ;
+}
+
+
+body{
+    Font-size: 15px;
+
+}
